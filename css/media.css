@@ -1,0 +1,163 @@
+@media (max-width: 1200px) {
+    .wrapper {
+        max-width: 970px;
+    }
+
+    .slide_icon {
+        width: 100px;
+    }
+
+
+
+
+}
+
+@media (max-width: 992px) {
+    .wrapper {
+        max-width: 800px;
+    }
+
+    .slide_icon {
+        width: 80px;
+    }
+    .main_banner__info{
+        width:300px;
+    }
+
+    .main_banner__text{
+        font-size:15px !important;
+    }
+    .third-slider__img{
+       width:150px;
+    }
+
+
+
+}
+
+@media screen and (max-width: 767px) {
+    .wrapper {
+        max-width: none;
+    }
+
+    .head_image {
+        margin: 0 auto;
+    }
+
+    .hide {
+        display: none;
+    }
+
+    .header-main__nav {
+        padding: 20px;
+
+    }
+
+    .header-main_logo {
+        width: 50%;
+        margin: 0 auto;
+    }
+
+    .header-main__first {
+        justify-content: center;
+        align-items: center;
+    }
+
+    .header-main__first .first__content {
+        max-width: 800px;
+        display: block;
+    }
+
+    .first__content {
+        max-width: none;
+        padding: 35px;
+    }
+
+    .first__content h3 {
+        text-align: center;
+
+    }
+
+    .first__content button {
+        margin: 0 auto;
+    }
+
+    .first-slider__image {
+        opacity: 0.4;
+        padding: 0;
+    }
+
+    .first-slider__image.slick-center {
+        opacity: 1;
+    }
+
+    .first-slider__main .slick-arrow {
+        width: 20px;
+        height: 10px;
+        margin: -19px 0 0 0;
+    }
+
+    .second-slider__img {
+        opacity: 0.4;
+
+    }
+
+    .second-slider__img.slick-center {
+        opacity: 1;
+    }
+
+    .interview_banner_info{
+        text-align:center;
+        margin-left:10px;
+    }
+
+    .interview-banner_content {
+        flex-wrap: wrap;
+
+    }
+
+    .interview-banner_img {
+        order: 4;
+        width:100%;
+    }
+
+    .interview_banner_button_mob button{
+        display:block !important;
+    }
+
+    .interview_banner_button{
+        display:none;
+    }
+
+    .main_banner{
+        display:none;
+    }
+
+
+    .footer__main{
+        justify-content: center;
+    }
+    .callback-banner_button{
+        margin-top:40px;
+    }
+
+    .footer__logo{
+        display:none;
+    }
+    .footer__link_1{
+        display:none !important;
+    }
+
+
+}
+
+@media screen and (max-width: 375px){
+    .third-slider__img button{
+        padding: 4px 7px 4px 7px !important;
+        font-size:13px !important;
+    }
+    .third-slider__img p{
+        line-height: 22px !important;
+        font-size:11px !important;
+    }
+}
