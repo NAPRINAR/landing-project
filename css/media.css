@@ -145,6 +145,9 @@
     .footer__link_1{
         display:none !important;
     }
+    .second-slider_main{
+        margin:70px 0 0 0 !important;
+    }
 
 
 }
@@ -164,6 +167,9 @@
 }
 
 @media screen and (max-width: 375px){
+
+
+
     .third-slider__img .third-slider__circle{
         width:78px !important;
         height: 78px !important;
