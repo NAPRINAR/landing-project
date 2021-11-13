@@ -27,9 +27,7 @@
     .main_banner__text{
         font-size:15px !important;
     }
-    .third-slider__img{
-       width:150px;
-    }
+
 
 
 
@@ -151,7 +149,7 @@
 
 }
 
-@media screen and (max-width: 375px){
+@media screen and (max-width: 420px){
     .third-slider__img button{
         padding: 4px 7px 4px 7px !important;
         font-size:13px !important;
@@ -159,5 +157,25 @@
     .third-slider__img p{
         line-height: 22px !important;
         font-size:11px !important;
+    }
+
+
+
+}
+
+@media screen and (max-width: 375px){
+    .third-slider__img .third-slider__circle{
+        width:78px !important;
+        height: 78px !important;
+    }
+}
+
+@media screen and (max-width: 359px){
+    .third-slider__img p {
+        line-height: 15px !important;
+        font-size: 8px !important;
+    }
+    .third-slider__img button{
+        font-size: 8px !important;
     }
 }
